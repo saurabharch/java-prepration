@@ -3,7 +3,7 @@ public class TitleCaseConverter {
         String input = "this is a sample title or sentence";
 
         String titleCase = convertToTitleCase(input);
-        System.out.println(titleCase); // Output: This Is A Sample Title Or Sentence
+        System.out.println(titleCase); // Output: This Is A aaa.Sample Title Or Sentence
     }
 
     private static String convertToTitleCase(String input) {
