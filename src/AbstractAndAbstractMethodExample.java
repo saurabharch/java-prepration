@@ -20,26 +20,26 @@ public class AbstractAndAbstractMethodExample {
 }
 
 abstract class MaheshPhone { // Abstract Class
-    public void  call(){
+    public void  call(){ // Here we Declare Method
         System.out.println("Calling ...");
     }
-    public abstract void move(); // Abstract Method
+    public abstract void move(); // Abstract Method , Here we just Define the method
     public abstract void dance();
     public abstract void cook();
 }
 
 abstract class RameshPhone extends MaheshPhone { //Abstract Class
 
-    public void move(){
+    public void move(){ // Here we Declare Method
         System.out.println("Moving...");
     }
 }
 
 class SureshPhone extends RameshPhone { // Concrete Class
-    public void dance(){
+    public void dance(){ // Here we Declare Method
         System.out.println("Dancing...");
     }
-    public void cook(){
+    public void cook(){ // Here we Declare Method
         System.out.println("Cooking...");
     }
 }
@@ -50,13 +50,13 @@ abstract class Phone {
 }
 
 class Iphone extends Phone {
-    public void showConfig(){
+    public void showConfig(){ // Here we Declare Method
         System.out.println("2Gb, IOs 12.2");
     }
 }
 
 class samsungS22 extends Phone{
-    public void showConfig(){
+    public void showConfig(){ // Here we Declare Method
         System.out.println("12Gb, Android 12");
     }
 }
