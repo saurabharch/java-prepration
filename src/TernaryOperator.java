@@ -13,16 +13,16 @@ public class TernaryOperator {
 
         Object obj1;
         Object obj2;
-        if(true){
-            obj1 = new Integer(10);
-        }else {
-            obj1 = new Double(20.0);
-        }
-        System.out.println(obj1);
-
-        // Coverting the above code in to ternary operators
-        obj2 = true? new Integer(10):new Double(20.0); // checking the datatype in both of the conversion than output is Maximum
-
-        System.out.println(obj2);
+//        if(true){
+//            obj1 = new Integer(10);
+//        }else {
+//            obj1 = new Double(20.0);
+//        }
+//        System.out.println(obj1);
+//
+//        // Coverting the above code in to ternary operators
+//        obj2 = true? new Integer(10):new Double(20.0); // checking the datatype in both of the conversion than output is Maximum
+//
+//        System.out.println(obj2);
     }
 }
