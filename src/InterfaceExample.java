@@ -33,6 +33,23 @@ public class InterfaceExample {
         };
         df.Newcreate();
         DefaultInte.Checking();
+
+        /*
+             // marker interface checking
+                    markerInterface mri = new markerInterface() {
+                        public void show(){
+                            System.out.println("Hello");
+                        }
+                    };
+
+                    if(mri instanceof markerInterface){
+                        mri.show();
+                    }
+                    else {
+                        System.out.println("No markerInterface");
+                    }
+*/
+
     }
 }
 
@@ -68,4 +85,14 @@ class AbcImpl implements AbcInterface{
     public void show(){
         System.out.println("In Show");
     }
+}
+
+// Marker Interface
+//  are non-declarative interface
+interface markerInterface {
+
+}
+
+abstract class MarkImp implements markerInterface {
+     abstract public void show();
 }
