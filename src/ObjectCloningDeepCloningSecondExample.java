@@ -6,7 +6,7 @@ public class ObjectCloningDeepCloningSecondExample{
             obj.j=5;
 
             Dclone obj1 = (Dclone) obj.clone();
-            obj1.j=8; // seems like swallow
+            obj1.j=8; // looks like swallow
 
         System.out.println("Clone: "+obj);
         System.out.println("Deep Clone: "+obj1);
