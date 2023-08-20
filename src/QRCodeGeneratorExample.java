@@ -8,7 +8,7 @@ import java.io.FileOutputStream;
 public class QRCodeGeneratorExample {
 
     public static void main(String[] args) throws Exception {
-        String details = "Saurabh Kashyap : full stack Developer";
+        String details = "https://github.com/saurabharch/saurabharch";
         ByteArrayOutputStream out = QRCode.from(details).to(ImageType.PNG).withSize(460,460).stream(); // ByteArrayOutputStream only takes stream
         File f = new  File("D:\\SpringTest_Source\\JavaPrep\\lib\\MyQRCode.png");
         FileOutputStream fos = new FileOutputStream(f);
