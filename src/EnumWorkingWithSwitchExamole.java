@@ -1,6 +1,6 @@
 public class EnumWorkingWithSwitchExamole {
 
-
+// Enum can Implement interface but not extend class the class
     enum Mobile {
         APPLE(200000),SAMSUNG(),MOTOROLA(27000),REDMI(17000);
         int price;
