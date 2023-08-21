@@ -24,7 +24,7 @@ public class RepresentTwoDimentionalArray {
             System.out.println("");
         }
 
-        System.out.println("Second Enhanced Method for presenting two dimentional array");
+        System.out.println("Second Enhanced Method for presenting two dimensional array");
         for(int i[] : p){
             for(int j : i){
                 System.out.print(j+ " ");
