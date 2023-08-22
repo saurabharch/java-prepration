@@ -24,18 +24,18 @@ public class CollectionAndGenericsComparableInterfaceExample {
 
 
 class NewStudents implements Comparable<NewStudents> {
-    int rollno;
+    int roll;
     int marks;
 
-    public NewStudents(int rollno, int marks) {
-        this.rollno = rollno;
+    public NewStudents(int roll, int marks) {
+        this.roll = roll;
         this.marks = marks;
     }
 
     @Override
     public String toString() {
         return "NewStudents{" +
-                "rollno=" + rollno +
+                "rollno=" + roll +
                 ", marks=" + marks +
                 '}';
     }
