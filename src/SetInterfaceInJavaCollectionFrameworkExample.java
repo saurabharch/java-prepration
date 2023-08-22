@@ -32,6 +32,12 @@ public class SetInterfaceInJavaCollectionFrameworkExample {
         for(int i :v){
             System.out.println(i);
         }
+
+        values.forEach(SetInterfaceInJavaCollectionFrameworkExample::doublet);
+    }
+
+    public static void doublet(int i){
+        System.out.println(i*2);
     }
 
 }
